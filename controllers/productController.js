@@ -2,14 +2,14 @@ const axios = require('axios')
 
 module.exports = {
   productsService: (request, response) => {
-    // response.redirect(`localhost:5000` + `${request.originalUrl}`)
+    console.log(request.originalUrl)
     axios.get(`http://localhost:5000` + `${request.originalUrl}`)
       .then((axiosResponse) => {
-        console.log(axiosResponse.data);
+        console.log('getting data back')
         response.send(axiosResponse.data)
       })
       .catch((error) => {
-        response.send(error)
+        // response.send(error)
       })
   }
 }
