@@ -9,7 +9,7 @@ module.exports = {
         response.send(axiosResponse.data)
       })
       .catch((error) => {
-        // response.send(error)
+        response.send(error)
       })
   }
 }
