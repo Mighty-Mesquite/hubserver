@@ -1,0 +1,25 @@
+{
+  "name": "hubserver",
+  "version": "1.0.0",
+  "description": "Hub for SDC project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mighty-Mesquite/hubserver.git"
+  },
+  "author": "Dana Walsh, Connie Tsai, Gordon Chow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mighty-Mesquite/hubserver/issues"
+  },
+  "homepage": "https://github.com/Mighty-Mesquite/hubserver#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
